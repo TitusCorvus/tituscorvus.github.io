@@ -40,7 +40,7 @@ nav {
 .menu a {
 	color: #6c6c6c;
 	text-decoration: none;
-	font-size: 20,35pt;
+	font-size: 20px;
 }
 
 .phone {
@@ -51,8 +51,54 @@ nav {
 .slider-text {
 	float: right;
 	color: #ffffff;
+	margin-top: 156px;
+	margin-right: 120px;
+	padding-top: 26px;
 }
 
-.sighup {
+.signup {
+	margin-top: 37px;
+	margin-left: 116px;
+}
+
+.logos {
+	display: inline-block;
+	align-items: center;
+	margin: 67px 25px 94px 25px;
+	text-align: center;
+}
+
+.logos__headline {
+	color: #5094f2;
+	font-size: 20px;
+}
+
+.logos__text {
+	color: 909090;
+	font-size: 14px;
+}
+
+h3 {
+	margin: 0 0 33px 54px;
+	color: #6f7173;
+	font-size: 42px;
+}
+
+.cart__image {
+	margin-left: 51px;
+	float: left;
+}
+
+.cart__text {
 	float: right;
+	margin-left: 52px;
+}
+
+.cart__headline {
+	font-size: 26px;
+	color: #6f7173;
+}
+
+.cart {
+	margin-bottom: 66px;
 }
