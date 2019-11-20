@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "SegoeWPN", sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+nav {
+	float: right;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	margin: 52px 41px 0 0 ;
+	font-size: 20,35px;
+}
+
+.menu li a {
+	color: #6c6c6c;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.slider {
+	background-image: url(path/img/background.png);
+	background-size: 100% cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 490px;
+}
+
+.container {
+	height: 580px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 24px 400px 21px 27px;
+	float: left;
+}
+
+.logos {
+	margin: 58px 119px 30px 63px;
+	justify-content: space-between;
+}
